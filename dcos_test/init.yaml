@@ -1,0 +1,22 @@
+---
+uuid: 604b3adaf689e1450a6a2803ee3a22c1
+version_hash: 6a0ce21b49bf00f60b7bc4e1fd181dbb
+name: dcos_agent
+id: 6
+type: package
+path: /usr/local/dcos_agent
+user: root
+instruction: 2018-01-12
+script:
+  start: "./bin/start_dcos.sh"
+  stop: "./bin/stop_dcos.sh"
+  pre_script: ""
+  post_script: ""
+process_check:
+  mode: ps
+  proc_list: []
+ip_type: 0
+crontab: []
+clear_file: []
+var_conf: []
+...

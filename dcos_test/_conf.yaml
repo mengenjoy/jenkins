@@ -1,0 +1,22 @@
+---
+name: dcos_agent
+id: 6
+type: package
+version: 1.0.1
+path: /usr/local/dcos_agent
+user:
+  file: root
+  execute_script: root
+script:
+  start: ./bin/start_dcos.sh
+  stop: ./bin/stop_dcos.sh
+  pre_script: ""
+  post_script: ""
+process_check:
+  mode: ps
+  proc_list: []
+ip_type: 0
+crontab: []
+clear_file: []
+var_conf: []
+...

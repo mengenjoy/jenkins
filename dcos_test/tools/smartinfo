@@ -1,0 +1,17 @@
+CollectID:
+ServerSN:
+DiskCount:1
+sda noraid
+smartctl 6.0 2012-10-10 r3643 [x86_64-linux-3.10.104-1-tlinux2-0041.tl2] (local build)
+Copyright (C) 2002-12, Bruce Allen, Christian Franke, www.smartmontools.org
+
+Vendor:               DELL
+Product:              PERC H710
+Revision:             3.13
+User Capacity:        1,497,198,755,840 bytes [1.49 TB]
+Logical block size:   512 bytes
+Logical Unit id:      0x6b8ca3a0f022a20019a2dcd514eaf0aa
+Serial number:        00aaf0ea14d5dca21900a222f0a0a38c
+Device type:          disk
+Local Time is:        Thu Jun  1 11:17:21 2017 CST
+Device does not support SMART
